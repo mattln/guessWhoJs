@@ -1,0 +1,361 @@
+[
+  {
+    "name": "Alex",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "black",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": true
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Alfred",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "blue",
+    "hair": {
+        "color": "red",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": true
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Anita",
+    "gender": "female",
+    "skin": "black",
+    "eyes": "blue",
+    "hair": {
+        "color": "blonde",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Anne",
+    "gender": "female",
+    "skin": "black",
+    "eyes": "black",
+    "hair": {
+        "color": "black",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Bernard",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "brown",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": true,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Bill",
+    "gender": "male",
+    "skin": "black",
+    "eyes": "black",
+    "hair": {
+        "color": "red",
+        "isBald": true,
+        "hasBeard": true,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Charles",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "blonde",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": true
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Claire",
+    "gender": "female",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "red",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": true,
+    "hasGlasses": true
+  },
+
+  {
+    "name": "David",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "blonde",
+        "isBald": false,
+        "hasBeard": true,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Eric",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "blonde",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": true,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Franz",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "red",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "George",
+    "gender": "male",
+    "skin": "black",
+    "eyes": "black",
+    "hair": {
+        "color": "white",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches":false
+    },
+    "hasHat": true,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Herman",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "red",
+        "isBald": true,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Joe",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "blonde",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches":false
+    },
+    "hasHat": false,
+    "hasGlasses": true
+  },
+
+  {
+    "name": "Maria",
+    "gender": "female",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "brown",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": true,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Max",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "blue",
+    "hair": {
+        "color": "brown",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": true
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Paul",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "white",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": true
+  },
+
+  {
+    "name": "Peter",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "blue",
+    "hair": {
+        "color": "white",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Philip",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "black",
+        "isBald": false,
+        "hasBeard": true,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Richard",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "brown",
+        "isBald": true,
+        "hasBeard": true,
+        "hasMustaches": true
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Robert",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "blue",
+    "hair": {
+        "color": "brown",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Sam",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "white",
+        "isBald": true,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": true
+  },
+
+  {
+    "name": "Susan",
+    "gender": "female",
+    "skin": "white",
+    "eyes": "black",
+    "hair": {
+        "color": "white",
+        "isBald": false,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": false
+  },
+
+  {
+    "name": "Tom",
+    "gender": "male",
+    "skin": "white",
+    "eyes": "blue",
+    "hair": {
+        "color": "black",
+        "isBald": true,
+        "hasBeard": false,
+        "hasMustaches": false
+    },
+    "hasHat": false,
+    "hasGlasses": true
+  }
+]
