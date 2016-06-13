@@ -1,8 +1,9 @@
-
 ### OSX ###
 *.DS_Store
 .AppleDouble
 .LSOverride
+
+.vagrant
 
 # Icon must end with two \r
 Icon
