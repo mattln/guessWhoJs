@@ -4,8 +4,6 @@ class Game {
 
         caller.phase = null;
 
-
-
         caller.HumanPlayer = new Player();
         caller.AiPlayer = new Player(false);
         console.log(caller.HumanPlayer.isHuman);
@@ -13,11 +11,17 @@ class Game {
 
         request.get("js/data/cards.json", function(response) {
             var cards = JSON.parse(response);
-            shuffleCards(cards);
+            shuffleItem(cards);
             caller.board = new Board(cards, clickCard, startGame);
         });
 
-        function shuffleCards(myArray) {
+        request.get("js/data/questions.json", function(response) {
+          var questions = JSON.parse(response);
+          shuffleItem(questions);
+          caller.roster = new Roster(questions);
+      });
+
+        function shuffleItem(myArray) {
             var i = myArray.length;
             if (i === 0) return false;
             while (--i) {

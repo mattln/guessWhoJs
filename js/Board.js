@@ -3,14 +3,14 @@ class Board {
         this.cards = cards;
 
         request.get("views/board.html", function(response) {
-            document.getElementsByTagName("body")[0].innerHTML = response;
+            document.getElementById("board").innerHTML = response;
             populateTable(cards);
             startGame();
 
-            document.querySelector("#board").addEventListener("click", clickCard, false);
+            document.querySelector("#boardTable").addEventListener("click", clickCard, false);
 
         });
-
+        
         function populateTable(myArray) {
             var table = document.getElementsByTagName("td");
             for (var i = 0; i < myArray.length; i++) {
