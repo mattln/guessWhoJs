@@ -11,32 +11,32 @@
   },
   {
          "question": "Does your character have blonde hair?",
-         "propertyToCheck" : "hair.color",
+         "propertyToCheck" : "hair_color",
          "expectedValue": "blonde"
    },
    {
          "question": "Does your character have black hair?",
-         "propertyToCheck" : "hair.color",
+         "propertyToCheck" : "hair_color",
          "expectedValue": "black"
    },
    {
          "question": "Does your character have brown hair?",
-         "propertyToCheck" : "hair.color",
+         "propertyToCheck" : "hair_color",
          "expectedValue": "brown"
    },
    {
          "question": "Does your character have red hair?",
-         "propertyToCheck" : "hair.color",
+         "propertyToCheck" : "hair_color",
          "expectedValue": "red"
    },
    {
          "question": "Does your character have white hair?",
-         "propertyToCheck" : "hair.color",
+         "propertyToCheck" : "hair_color",
          "expectedValue": "white"
    },
    {
          "question": "Does your character have blonde hair?",
-         "propertyToCheck" : "hair.color",
+         "propertyToCheck" : "hair_color",
          "expectedValue": "blonde"
    },
    {
@@ -56,27 +56,27 @@
    },
    {
          "question": "Is your character wearing glasses?",
-         "propertyToCheck" : "eyes",
+         "propertyToCheck" : "hasGlasses",
          "expectedValue": "true"
    },
    {
-         "question": "Is your character wearing bald?",
-         "propertyToCheck" : "eyes",
+         "question": "Is your character bald?",
+         "propertyToCheck" : "isBald",
          "expectedValue": "true"
    },
    {
          "question": "Does your character have a moustache?",
-         "propertyToCheck" : "eyes",
+         "propertyToCheck" : "hasMustaches",
          "expectedValue": "true"
    },
    {
          "question": "Does your character have a beard?",
-         "propertyToCheck" : "eyes",
+         "propertyToCheck" : "hasBeard",
          "expectedValue": "true"
    },
    {
          "question": "Is your character wearing a hat?",
-         "propertyToCheck" : "eyes",
+         "propertyToCheck" : "hasHat",
          "expectedValue": "true"
    }
 ]

@@ -1,5 +1,5 @@
 class Board {
-    constructor(cards, clickCard, startGame) {
+    constructor(cards, eventCallback, startGame) {
         this.cards = cards;
 
         request.get("views/board.html", function(response) {
@@ -7,12 +7,11 @@ class Board {
             populateTable(cards);
             startGame();
 
-            document.querySelector("#boardTable").addEventListener("click", clickCard, false);
-
+            document.querySelector("#boardTable").addEventListener("click", eventCallback, false);
         });
-        
+
         function populateTable(myArray) {
-            var table = document.getElementsByTagName("td");
+            var table = document.getElementById("board").getElementsByTagName("td");
             for (var i = 0; i < myArray.length; i++) {
                 table[i].setAttribute("data-id", i); // aggiunto il numero della carta nell'array nell'elemento.
                 table[i].innerHTML = myArray[i].name;
@@ -32,9 +31,30 @@ class Board {
         function getRandomNumber(numberToExclude) {
             var randomNumber = Math.floor(Math.random() * cards.length);
             if (randomNumber === numberToExclude) {
-              return getRandomNumber(numberToExclude);
+                return getRandomNumber(numberToExclude);
             }
             return randomNumber;
+        }
+    }
+
+    removeCardWithProperty(propertyName, propertyValue) {
+      console.log("oh mio dio chiama!!!");
+        for (var i = 0; i < this.cards.length; i++) {
+            if (this.cards[i][propertyName] === propertyValue) {
+                console.log(this.cards[i]);
+                document.getElementById("board").getElementsByTagName("td")[i].className += " hide";
+                console.log(document.getElementById("board").getElementsByTagName("td")[i]);
+            }
+        }
+    }
+
+    removeCardWithoutProperty(propertyName, propertyValue) {
+        for (var i = 0; i < this.cards.length; i++) {
+            if (this.cards[i][propertyName] !== propertyValue) {
+                console.log(this.cards[i]);
+                document.getElementById("board").getElementsByTagName("td")[i].className += " hide";
+                console.log(document.getElementById("board").getElementsByTagName("td")[i]);
+            }
         }
     }
 }

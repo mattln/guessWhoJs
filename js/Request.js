@@ -1,9 +1,7 @@
 class Request {
-    constructor() {
-        this.xmlhttp = new XMLHttpRequest();
-    }
-
     get(url, callback) {
+      this.xmlhttp = new XMLHttpRequest();
+
       let xmlhttp = this.xmlhttp;
 
         xmlhttp.open('GET', url, true);
@@ -15,3 +13,6 @@ class Request {
         xmlhttp.send(null);
     }
 }
+
+
+//callback funzione da eseguiguire quando hai finito
