@@ -38,12 +38,9 @@ class Board {
     }
 
     removeCardWithProperty(propertyName, propertyValue) {
-      console.log("oh mio dio chiama!!!");
         for (var i = 0; i < this.cards.length; i++) {
             if (this.cards[i][propertyName] === propertyValue) {
-                console.log(this.cards[i]);
                 document.getElementById("board").getElementsByTagName("td")[i].className += " hide";
-                console.log(document.getElementById("board").getElementsByTagName("td")[i]);
             }
         }
     }
@@ -51,9 +48,7 @@ class Board {
     removeCardWithoutProperty(propertyName, propertyValue) {
         for (var i = 0; i < this.cards.length; i++) {
             if (this.cards[i][propertyName] !== propertyValue) {
-                console.log(this.cards[i]);
                 document.getElementById("board").getElementsByTagName("td")[i].className += " hide";
-                console.log(document.getElementById("board").getElementsByTagName("td")[i]);
             }
         }
     }

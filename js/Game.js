@@ -2,6 +2,8 @@ class Game {
     constructor() {
         let caller = this;
 
+        document.querySelector("#guessButtons").addEventListener("click", decideToGuess, false);
+
         caller.phase = null;
 
         messages.set("Pick your card!!!");
@@ -13,12 +15,14 @@ class Game {
             var cards = JSON.parse(response);
             shuffleItem(cards);
             caller.board = new Board(cards, clickCard, startGame);
+            caller.AiPlayer.cardsOnBoard = JSON.parse(JSON.stringify(cards));
         });
 
         request.get("js/data/questions.json", function(response) {
             var questions = JSON.parse(response);
             shuffleItem(questions);
             caller.roster = new Roster(questions, clickQuestion);
+            caller.AiPlayer.questionsOnBoard = JSON.parse(JSON.stringify(questions));
         });
 
         function shuffleItem(myArray) {
@@ -43,13 +47,20 @@ class Game {
                 if (caller.phase === "selectCharacter") {
                     caller.HumanPlayer.card = caller.board.getCard(cardId);
                     caller.AiPlayer.card = caller.board.getRandomCard(cardId);
-                    //console.log(caller.HumanPlayer);
-                    //console.log(caller.AiPlayer);
+                    caller.AiPlayer.removeOwnCardFromBoard();
 
                     messages.set("Pick your question!!");
 
                     caller.phase = "askQuestion";
 
+                } else if (caller.phase === "guessWho") {
+                    if (caller.board.getCard(cardId).name === caller.AiPlayer.card.name) {
+                        messages.set("Congratulations, you guessed who!!");
+                    } else {
+                        messages.set("You lost! too bad, next time maybe!");
+
+                    }
+                    caller.phase = null;
                 }
             }
             e.stopPropagation();
@@ -66,25 +77,17 @@ class Game {
                     var opponentCard = caller.AiPlayer.card;
                     var question = caller.roster.getQuestion(questionId);
 
-
-                    console.log(opponentCard);
-                    console.log(question);
-                    console.log(opponentCard[question.propertyToCheck]);
-
                     if (opponentCard[question.propertyToCheck] === question.expectedValue) {
                         caller.board.removeCardWithoutProperty(question.propertyToCheck, question.expectedValue);
-                        //console.log("yey!");
-                        //console.log(opponentCard[question.expectedValue]);
                     } else {
                         caller.board.removeCardWithProperty(question.propertyToCheck, question.expectedValue);
-                        //console.log("try again!!!");
                     }
 
                     caller.roster.remove(e.target);
 
+                    caller.phase = "decideToGuess";
+                    document.getElementById("guessButtons").className = "";
 
-
-                    //                    caller.phase = null;
                 }
             }
             e.stopPropagation();
@@ -92,6 +95,29 @@ class Game {
 
         function startGame() {
             caller.phase = "selectCharacter";
+        }
+
+        function decideToGuess(e) {
+            if (e.target.nodeName !== "BUTTON" || caller.phase !== "decideToGuess") {
+                return;
+            }
+
+            if (e.target.id === "decideToPass") {
+                caller.phase = "aiTurn";
+                messages.set("Your opponent is playing!");
+                if (caller.AiPlayer.playTurn(caller.HumanPlayer.card) === true) {
+                  caller.phase = "askQuestion";
+                  messages.set("It is now your turn! Pick a question!");
+                }
+            } else {
+                messages.set("Guess Who!");
+
+                caller.phase = "guessWho";
+            }
+
+            document.getElementById("guessButtons").className = "hide";
+
+
         }
     }
 }
