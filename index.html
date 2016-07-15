@@ -4,8 +4,12 @@
         <meta charset="UTF-8">
         <title>Guess Who?</title>
 
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="js/Messages.js"></script>
         <script src="js/Request.js"></script>
         <script src="js/Board.js"></script>
+        <script src="js/Roster.js"></script>
         <script src="js/Turn.js"></script>
         <script src="js/Player.js"></script>
         <script src="js/Game.js"></script>
@@ -14,6 +18,19 @@
     </head>
 
     <body>
+      <div id="board">
+
+      </div>
+      <div id="questions">
+
+      </div>
+      <div id="guessButtons" class="hide">
+        <p>
+          Are you ready to Guess Who?
+        </p>
+        <button id="decideToGuess" type="button">Yes!</button>
+        <button id="decideToPass" type="button">No!</button>
+      </div>
 
     </body>
 

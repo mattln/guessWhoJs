@@ -1,361 +1,312 @@
-[
-  {
-    "name": "Alex",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "black",
+[{
+        "name": "Alex",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "black",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": true
+        "hasMustaches": true,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Alfred",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "blue",
-    "hair": {
-        "color": "red",
+    {
+        "name": "Alfred",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "blue",
+        "hair_color": "red",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": true
+        "hasMustaches": true,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Anita",
-    "gender": "female",
-    "skin": "black",
-    "eyes": "blue",
-    "hair": {
-        "color": "blonde",
+    {
+        "name": "Anita",
+        "gender": "female",
+        "skin": "black",
+        "eyes": "blue",
+        "hair_color": "blonde",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Anne",
-    "gender": "female",
-    "skin": "black",
-    "eyes": "black",
-    "hair": {
-        "color": "black",
+    {
+        "name": "Anne",
+        "gender": "female",
+        "skin": "black",
+        "eyes": "black",
+        "hair_color": "black",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Bernard",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "brown",
+    {
+        "name": "Bernard",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "brown",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": true,
+        "hasGlasses": false
     },
-    "hasHat": true,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Bill",
-    "gender": "male",
-    "skin": "black",
-    "eyes": "black",
-    "hair": {
-        "color": "red",
+    {
+        "name": "Bill",
+        "gender": "male",
+        "skin": "black",
+        "eyes": "black",
+        "hair_color": "red",
         "isBald": true,
         "hasBeard": true,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Charles",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "blonde",
+    {
+        "name": "Charles",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "blonde",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": true
+        "hasMustaches": true,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Claire",
-    "gender": "female",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "red",
+    {
+        "name": "Claire",
+        "gender": "female",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "red",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": true,
+        "hasGlasses": true
     },
-    "hasHat": true,
-    "hasGlasses": true
-  },
 
-  {
-    "name": "David",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "blonde",
+    {
+        "name": "David",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "blonde",
         "isBald": false,
         "hasBeard": true,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Eric",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "blonde",
+    {
+        "name": "Eric",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "blonde",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": true,
+        "hasGlasses": false
     },
-    "hasHat": true,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Franz",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "red",
+    {
+        "name": "Franz",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "red",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "George",
-    "gender": "male",
-    "skin": "black",
-    "eyes": "black",
-    "hair": {
-        "color": "white",
+    {
+        "name": "George",
+        "gender": "male",
+        "skin": "black",
+        "eyes": "black",
+        "hair_color": "white",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches":false
+        "hasMustaches": false,
+        "hasHat": true,
+        "hasGlasses": false
     },
-    "hasHat": true,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Herman",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "red",
+    {
+        "name": "Herman",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "red",
         "isBald": true,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Joe",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "blonde",
+    {
+        "name": "Joe",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "blonde",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches":false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": true
     },
-    "hasHat": false,
-    "hasGlasses": true
-  },
 
-  {
-    "name": "Maria",
-    "gender": "female",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "brown",
+    {
+        "name": "Maria",
+        "gender": "female",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "brown",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": true,
+        "hasGlasses": false
     },
-    "hasHat": true,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Max",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "blue",
-    "hair": {
-        "color": "brown",
+    {
+        "name": "Max",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "blue",
+        "hair_color": "brown",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": true
+        "hasMustaches": true,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Paul",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "white",
+    {
+        "name": "Paul",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "white",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": true
     },
-    "hasHat": false,
-    "hasGlasses": true
-  },
 
-  {
-    "name": "Peter",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "blue",
-    "hair": {
-        "color": "white",
+    {
+        "name": "Peter",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "blue",
+        "hair_color": "white",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Philip",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "black",
+    {
+        "name": "Philip",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "black",
         "isBald": false,
         "hasBeard": true,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Richard",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "brown",
+    {
+        "name": "Richard",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "brown",
         "isBald": true,
         "hasBeard": true,
-        "hasMustaches": true
+        "hasMustaches": true,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Robert",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "blue",
-    "hair": {
-        "color": "brown",
+    {
+        "name": "Robert",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "blue",
+        "hair_color": "brown",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Sam",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "white",
+    {
+        "name": "Sam",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "white",
         "isBald": true,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": true
     },
-    "hasHat": false,
-    "hasGlasses": true
-  },
 
-  {
-    "name": "Susan",
-    "gender": "female",
-    "skin": "white",
-    "eyes": "black",
-    "hair": {
-        "color": "white",
+    {
+        "name": "Susan",
+        "gender": "female",
+        "skin": "white",
+        "eyes": "black",
+        "hair_color": "white",
         "isBald": false,
         "hasBeard": false,
-        "hasMustaches": false
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": false
     },
-    "hasHat": false,
-    "hasGlasses": false
-  },
 
-  {
-    "name": "Tom",
-    "gender": "male",
-    "skin": "white",
-    "eyes": "blue",
-    "hair": {
-        "color": "black",
+    {
+        "name": "Tom",
+        "gender": "male",
+        "skin": "white",
+        "eyes": "blue",
+        "hair_color": "black",
         "isBald": true,
         "hasBeard": false,
-        "hasMustaches": false
-    },
-    "hasHat": false,
-    "hasGlasses": true
-  }
+        "hasMustaches": false,
+        "hasHat": false,
+        "hasGlasses": true
+    }
 ]

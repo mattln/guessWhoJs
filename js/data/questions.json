@@ -1,0 +1,82 @@
+[
+  {
+        "question": "Does your character a male?",
+        "propertyToCheck" : "gender",
+        "expectedValue": "male"
+  },
+  {
+        "question": "Does your character a female?",
+        "propertyToCheck" : "gender",
+        "expectedValue": "female"
+  },
+  {
+         "question": "Does your character have blonde hair?",
+         "propertyToCheck" : "hair_color",
+         "expectedValue": "blonde"
+   },
+   {
+         "question": "Does your character have black hair?",
+         "propertyToCheck" : "hair_color",
+         "expectedValue": "black"
+   },
+   {
+         "question": "Does your character have brown hair?",
+         "propertyToCheck" : "hair_color",
+         "expectedValue": "brown"
+   },
+   {
+         "question": "Does your character have red hair?",
+         "propertyToCheck" : "hair_color",
+         "expectedValue": "red"
+   },
+   {
+         "question": "Does your character have white hair?",
+         "propertyToCheck" : "hair_color",
+         "expectedValue": "white"
+   },
+   {
+         "question": "Does your character have blonde hair?",
+         "propertyToCheck" : "hair_color",
+         "expectedValue": "blonde"
+   },
+   {
+         "question": "Does your character have black eyes?",
+         "propertyToCheck" : "eyes",
+         "expectedValue": "black"
+   },
+   {
+         "question": "Does your character have blue eyes?",
+         "propertyToCheck" : "eyes",
+         "expectedValue": "blue"
+   },
+   {
+         "question": "Does your character have black eyes?",
+         "propertyToCheck" : "eyes",
+         "expectedValue": "black"
+   },
+   {
+         "question": "Is your character wearing glasses?",
+         "propertyToCheck" : "hasGlasses",
+         "expectedValue": "true"
+   },
+   {
+         "question": "Is your character bald?",
+         "propertyToCheck" : "isBald",
+         "expectedValue": "true"
+   },
+   {
+         "question": "Does your character have a moustache?",
+         "propertyToCheck" : "hasMustaches",
+         "expectedValue": "true"
+   },
+   {
+         "question": "Does your character have a beard?",
+         "propertyToCheck" : "hasBeard",
+         "expectedValue": "true"
+   },
+   {
+         "question": "Is your character wearing a hat?",
+         "propertyToCheck" : "hasHat",
+         "expectedValue": "true"
+   }
+]
